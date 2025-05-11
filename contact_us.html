@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us - Greenwood Community Library</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #fafafa;
+            color: #333;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #388e3c;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .container {
+            padding: 30px 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        form {
+            background-color: #e8f5e9;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-family: inherit;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #1b5e20;
+        }
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+    <p>We're here to help! Reach out with questions, suggestions, or feedback.</p>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="#">Catalog</a>
+    <a href="about_us.html">About Us</a>
+    <a href="events.html">Events</a>
+    <a href="#">Membership</a>
+</nav>
+
+<div class="container">
+
+    <div class="section">
+        <h2>Library Contact Information</h2>
+        <p><strong>Address:</strong> 123 Main Street, Greenwood, IN 46142</p>
+        <p><strong>Phone:</strong> (555) 123-4567</p>
+        <p><strong>Email:</strong> contact@greenwoodlibrary.org</p>
+        <p><strong>Hours:</strong> Mon–Fri 9am–8pm, Sat 10am–5pm, Sun Closed</p>
+    </div>
+
+    <div class="section">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="Jane Doe" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" placeholder="jane@example.com" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message here..." required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>Visit Us</h2>
+        <p>We're located in the heart of downtown Greenwood, right across from the city park. Free parking is available behind the building.</p>
+        <!-- Optional Google Maps Embed -->
+        <iframe
+            src="https://maps.google.com/maps?q=Greenwood%20Library&t=&z=15&ie=UTF8&iwloc=&output=embed"
+            width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""
+            aria-hidden="false" tabindex="0">
+        </iframe>
+    </div>
+
+</div>
+
+<footer>
+    <p>&copy; 2025 Greenwood Community Library | Building Connections Through Knowledge</p>
+</footer>
+
+</body>
+</html>
